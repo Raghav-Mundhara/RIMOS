@@ -1,7 +1,7 @@
 import express from "express";
+
 const app=express();
-import {name} from "@repo/common/config";
-console.log(name);
+
 app.get("/",(req,res)=>{
     res.send("Hello World");
 });
